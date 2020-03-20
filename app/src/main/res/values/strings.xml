@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">COVID-19</string>
+    <string name="global">Global</string>
+    <string name="country">Country</string>
+    <string name="help">Help</string>
+    <string name="kasus">Kasus</string>
+    <string name="value_kosong">0</string>
+    <string name="kematian">Kematian</string>
+    <string name="pulih">Pulih</string>
+    <string name="information">Details Info</string>
+    <string name="cases">Cases</string>
+    <string name="deaths">Deaths</string>
+    <string name="recovered">Recovered</string>
+    <string name="active">Active</string>
+    <string name="critical">Critical</string>
+    <string name="today_deaths">Today Deaths</string>
+    <string name="cases_per">Cases Per One Million</string>
+    <string name="ok">OK</string>
+    <string name="todo">TODO</string>
+    <string name="today_cases">Today Cases</string>
+</resources>
