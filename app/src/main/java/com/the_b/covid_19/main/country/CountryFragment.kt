@@ -64,11 +64,11 @@ class CountryFragment: Fragment(), CountryView {
     }
 
     private fun addFragment(fragment: DialogFragment){
-        fragmentManager
-            ?.beginTransaction()
-            ?.replace(R.id.dialogFrag, fragment, fragment.javaClass.simpleName)
-            ?.addToBackStack(null)
-            ?.commit()
+        //val mDialogFragment = CostumDialog()
+        val mFragment = childFragmentManager
+
+        fragment.show(mFragment, CostumDialog::class.java.simpleName)
+
     }
 
     companion object{
